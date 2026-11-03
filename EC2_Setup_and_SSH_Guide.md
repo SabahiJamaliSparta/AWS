@@ -140,15 +140,6 @@ mv -i ~/Downloads/DataStudents.pem ~/.ssh/
 
 `mkdir -p` creates the folder if it does not exist. `mv -i` moves the key and asks before overwriting an existing file. Skip the move if the correct key is already in `.ssh`.
 
-### Set permissions
-
-```bash
-chmod 700 ~/.ssh
-chmod 400 ~/.ssh/DataStudents.pem
-```
-
-The first command restricts folder access to your account. The second makes the private key readable only by its owner. Restrictive private-key permissions are required for SSH authentication [4].
-
 ### Enter the folder and check the key
 
 ```bash
