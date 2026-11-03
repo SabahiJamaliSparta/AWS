@@ -75,8 +75,6 @@ Configure this inbound rule:
 
 **Why:** This permits an SSH connection from your current public IP address. A source such as `203.0.113.10/32` represents one IPv4 address; this is an illustrative example, not a value to copy. Select **My IP** to obtain your own address [3, 4].
 
-Do not use your tutor's IP address or enter a security group ID beginning with `sg-` as the source for this connection. If your public IP changes, update the rule.
-
 ## 6. Review storage and launch
 
 Under **Configure storage**, check the root volume settings against the class requirements. The exact configured size and volume type were not captured in this exercise, so they are not specified here.
