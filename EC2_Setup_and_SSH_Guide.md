@@ -48,11 +48,7 @@ Under **Application and OS Images**, select the official **Ubuntu Server 26.04 L
 
 ## 4. Select the key pair
 
-Under **Key pair (login)**, select **`DataStudents`**, matching the existing private key:
-
-```text
-DataStudents.pem
-```
+Under **Key pair (login)**, select relevant key.
 
 **Why:** The matching private key proves your identity when connecting. A similarly named but different key will not work.
 
